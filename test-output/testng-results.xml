@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-10T19:05:12 GMT" name="Default suite" finished-at="2024-12-10T19:05:18 GMT" duration-ms="5944">
+    <groups>
+    </groups>
+    <test started-at="2024-12-10T19:05:12 GMT" name="Default test" finished-at="2024-12-10T19:05:18 GMT" duration-ms="5944">
+      <class name="com.demowebshop.tests.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.demowebshop.tests.LoginTest@1a942c18]" started-at="2024-12-10T19:05:05 GMT" name="openBrowser" finished-at="2024-12-10T19:05:12 GMT" duration-ms="6946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logintotheDemoShopWebsite()[pri:0, instance:com.demowebshop.tests.LoginTest@1a942c18]" started-at="2024-12-10T19:05:12 GMT" name="logintotheDemoShopWebsite" finished-at="2024-12-10T19:05:18 GMT" duration-ms="5860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintotheDemoShopWebsite -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.tests.LoginTest@1a942c18]" started-at="2024-12-10T19:05:18 GMT" name="closeBrowser" finished-at="2024-12-10T19:05:19 GMT" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demowebshop.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
