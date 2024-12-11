@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-11T12:27:13 GMT" name="Default suite" finished-at="2024-12-11T12:27:19 GMT" duration-ms="6651">
+  <suite started-at="2024-12-11T14:43:15 GMT" name="Default suite" finished-at="2024-12-11T14:43:23 GMT" duration-ms="7158">
     <groups>
     </groups>
-    <test started-at="2024-12-11T12:27:13 GMT" name="Default test" finished-at="2024-12-11T12:27:19 GMT" duration-ms="6651">
-      <class name="com.demowebshop.tests.RegisterTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.demowebshop.tests.RegisterTest@5ab956d7]" started-at="2024-12-11T12:27:05 GMT" name="openBrowser" finished-at="2024-12-11T12:27:13 GMT" duration-ms="7275" status="PASS">
+    <test started-at="2024-12-11T14:43:15 GMT" name="Default test" finished-at="2024-12-11T14:43:23 GMT" duration-ms="7158">
+      <class name="com.demowebshop.tests.BooksTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.demowebshop.tests.BooksTest@1a942c18]" started-at="2024-12-11T14:43:09 GMT" name="openBrowser" finished-at="2024-12-11T14:43:15 GMT" duration-ms="6876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="registerintotheDemoShopWebsite()[pri:0, instance:com.demowebshop.tests.RegisterTest@5ab956d7]" started-at="2024-12-11T12:27:13 GMT" name="registerintotheDemoShopWebsite" finished-at="2024-12-11T12:27:19 GMT" duration-ms="6578" status="PASS">
+        <test-method signature="selectBooksLink()[pri:0, instance:com.demowebshop.tests.BooksTest@1a942c18]" started-at="2024-12-11T14:43:15 GMT" name="selectBooksLink" finished-at="2024-12-11T14:43:23 GMT" duration-ms="7078" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerintotheDemoShopWebsite -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.tests.RegisterTest@5ab956d7]" started-at="2024-12-11T12:27:19 GMT" name="closeBrowser" finished-at="2024-12-11T12:27:20 GMT" duration-ms="669" status="PASS">
+        </test-method> <!-- selectBooksLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.tests.BooksTest@1a942c18]" started-at="2024-12-11T14:43:23 GMT" name="closeBrowser" finished-at="2024-12-11T14:43:23 GMT" duration-ms="626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.demowebshop.tests.RegisterTest -->
+      </class> <!-- com.demowebshop.tests.BooksTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
