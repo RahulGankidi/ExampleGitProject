@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demowebshop.tests.ShoppingCartTest">
+      <class name="com.demowebshop.tests.WishlistTest">
         <methods>
+          <include name="openWishlistPage"/>
           <include name="closeBrowser"/>
           <include name="openBrowser"/>
-          <include name="shoppingCart"/>
         </methods>
-      </class> <!-- com.demowebshop.tests.ShoppingCartTest -->
+      </class> <!-- com.demowebshop.tests.WishlistTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
